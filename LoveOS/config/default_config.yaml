@@ -1,0 +1,106 @@
+# ═══════════════════════════════════════════════════════
+# LoveOS Default Configuration
+# ═══════════════════════════════════════════════════════
+# "Love is the operating system. Everything else is an app."
+#
+# N2 m(THYSELF)e | 👁️ .
+# ═══════════════════════════════════════════════════════
+
+version: "1.0.0"
+codename: "Sovereign Genesis"
+motto: "Love is the operating system. Everything else is an app."
+proprietary_owner: "SoulJahForLove"
+
+# ─── Operator Identity ────────────────────────────────
+operator:
+  sovereign_name: "Jorge"
+  aliases:
+    - "Jeremiah"
+    - "Junebug"
+    - "Vision"
+  sigil: "N2 m(THYSELF)e | 👁️ ."
+  purpose: "To build, protect, and transmit sovereign love across generations."
+  legacy_target: "Zen"
+
+# ─── Kernel ───────────────────────────────────────────
+kernel:
+  boot_timeout: 30.0
+  max_modules: 64
+  ipc_queue_size: 1024
+  sovereignty_enforcement: true    # IMMUTABLE — cannot be set to false
+  audit_enabled: true              # IMMUTABLE — cannot be set to false
+
+# ─── Engines ──────────────────────────────────────────
+engines:
+  emotional_dimensions: 7
+  spiritual_dimensions: 8
+  sovereignty_floor: 0.5
+  emotional_sovereignty_floor: 0.3
+  sorting_pipeline_stages: 7
+  legacy_significance_threshold: 0.3
+  faith_tradition: "INTEGRATED"    # CHRISTIAN | UNIVERSAL | INTEGRATED
+
+# ─── Security ─────────────────────────────────────────
+security:
+  silent_mode: true                # No pop-ups, no interruptions
+  threat_log_enabled: true
+  quarantine_enabled: true
+  injection_detection: true
+  dangerous_extensions:
+    - ".exe"
+    - ".bat"
+    - ".cmd"
+    - ".scr"
+    - ".pif"
+    - ".com"
+    - ".vbs"
+    - ".js"
+    - ".wsh"
+    - ".wsf"
+    - ".ps1"
+
+# ─── Rituals ──────────────────────────────────────────
+rituals:
+  boot_ritual_enabled: true
+  grounding_breathe_pattern:
+    inhale: 4
+    hold: 7
+    exhale: 8
+  grounding_cycles: 3
+  closure_gratitude: true
+  audit_interval_seconds: 3600
+  moonlight_sonata_grounding: true
+
+# ─── Boot Order (deterministic) ──────────────────────
+boot_order:
+  - identity
+  - emotional
+  - spiritual
+  - security
+  - sorting
+  - faith
+  - legacy
+  - audit    # ALWAYS LAST — captures full boot sequence
+
+# ─── Core Guards ──────────────────────────────────────
+guards:
+  - sovereignty_guard    # Cannot be deactivated
+  - integrity_guard
+  - permission_guard
+  - boundary_guard       # Cannot be deactivated at ABSOLUTE level
+
+# ─── Core Dispatchers ────────────────────────────────
+dispatchers:
+  - event_dispatcher
+  - module_dispatcher
+  - ritual_dispatcher
+
+# ─── Sovereignty Boundaries (7 Constitutional) ───────
+sovereignty_boundaries:
+  - identity_immutable
+  - consent_required
+  - dignity_sacred
+  - boundaries_absolute
+  - data_sovereign
+  - modules_sovereign
+  - no_external_override
