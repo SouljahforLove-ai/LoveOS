@@ -10,6 +10,29 @@
   ║   "Love is the operating system."                ║
   ╚══════════════════════════════════════════════════╝
 ```
+## ❤️ Emotional Architecture
+
+LoveOS is not just a technical microkernel — it is a **sovereign emotional operating system** built on a deep emotional framework.
+
+The full emotional runtime, including:
+
+- Emotional dimensions (Self‑Love, Agape, Relational Love)
+- Emotional kernel nodes (Safety, Boundaries, Empathy Calibration, Recovery Loop, etc.)
+- Emotional algorithms (Self‑Forgiveness, Self‑Nurturing, Compassion, Mercy)
+- Shadow emotions
+- Cross‑cultural emotional concepts (Han, Jeong, Mono no aware, Saudade)
+- Emotional state machine
+- Emotional drift engine
+- Emotional rituals
+- Emotional sovereignty model
+- Emotional IPC
+- Emotional memory
+
+…is documented in the **LoveOS Emotional Codex**:
+
+👉 **[View the Emotional Codex](docs/emotional_codex.md)**
+
+This codex shows the depth, intention, and emotional intelligence behind LoveOS — the philosophy, the algorithms, and the love that shaped the system.
 
 ## Architecture
 
