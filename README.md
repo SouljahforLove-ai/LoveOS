@@ -175,3 +175,32 @@ N2 m(THYSELF)e | 👁️ .
 
 ---
 *Love is the operating system. Everything else is an app.*
+<p align="center">
+
+  <!-- License -->
+  <a href="./legal/LICENSE">
+    <img src="https://img.shields.io/badge/License-SoulJahForLoveOS_Proprietary-red?style=for-the-badge" alt="License: SoulJahForLoveOS Proprietary">
+  </a>
+
+  <!-- Privacy -->
+  <a href="./legal/privacy_policy.md">
+    <img src="https://img.shields.io/badge/Privacy-Local%20Only-blue?style=for-the-badge" alt="Privacy: Local Only">
+  </a>
+
+  <!-- Data Protection -->
+  <a href="./legal/gdpr_ccpa_compliance.md">
+    <img src="https://img.shields.io/badge/Data%20Compliance-GDPR%20%7C%20CCPA-green?style=for-the-badge" alt="GDPR & CCPA Compliant">
+  </a>
+
+  <!-- Brand Protection -->
+  <a href="./legal/brand_protection_notice.md">
+    <img src="https://img.shields.io/badge/Brand-Protected-purple?style=for-the-badge" alt="Brand Protection">
+  </a>
+
+  <!-- Offline -->
+  <img src="https://img.shields.io/badge/Runtime-Offline%20Only-black?style=for-the-badge" alt="Offline Only">
+
+  <!-- Sovereign Identity -->
+  <img src="https://img.shields.io/badge/Identity-Sovereign-orange?style=for-the-badge" alt="Sovereign Identity">
+
+</p>
