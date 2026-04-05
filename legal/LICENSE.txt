@@ -1,0 +1,123 @@
+# SoulJahForLoveOS Proprietary License  
+Version 1.0 — April 2026  
+Copyright © 2026 Jorge Cordero (SoulJahForLove)
+
+SoulJahForLoveOS (“the Software”) is a sovereign, local‑only microkernel environment created and owned by **Jorge Cordero**, operating under the identity and brand **SoulJahForLove**.
+
+This license governs all use, modification, and distribution of the Software.
+
+---
+
+## 1. Ownership
+
+All rights, title, and interest in:
+
+- the Software  
+- the architecture  
+- the emotional engine  
+- the identity engine  
+- the sovereignty engine  
+- the mythic engine  
+- the Deep Field model  
+- the Ritual Plane  
+- the Sovereign Vow Protocol  
+- all documentation  
+- all system concepts  
+- all branding and marks  
+
+are exclusively owned by **Jorge Cordero (SoulJahForLove)**.
+
+No rights are granted except those explicitly stated in this license.
+
+---
+
+## 2. Permitted Use
+
+You are granted a **personal, non‑transferable, non‑exclusive** license to:
+
+- install and run the Software locally  
+- modify the Software for your own private use  
+- create personal extensions or modules  
+- use the Software for creative, emotional, or experimental purposes  
+
+This license does **not** permit any form of redistribution or commercial use.
+
+---
+
+## 3. Prohibited Use
+
+You may **not**:
+
+- copy, distribute, or publish the Software  
+- sell, license, or sublicense the Software  
+- host the Software as a service  
+- use the Software in commercial products  
+- rebrand or claim ownership of the Software  
+- reverse engineer for competitive or commercial purposes  
+- use the Software to collect or transmit user data  
+
+Any unauthorized use is a violation of this license and applicable law.
+
+---
+
+## 4. Data & Privacy
+
+SoulJahForLoveOS is designed to operate **entirely offline**.  
+It does not:
+
+- collect personal data  
+- transmit data to servers  
+- use analytics  
+- store information outside the user’s device  
+
+Users are responsible for securing their own devices and backups.
+
+---
+
+## 5. No Warranty
+
+The Software is provided “as‑is,” without warranties of any kind, express or implied.
+
+The creator is not liable for:
+
+- damages  
+- data loss  
+- system behavior  
+- misuse  
+- modifications made by the user  
+
+Use the Software at your own risk.
+
+---
+
+## 6. Termination
+
+This license terminates automatically if:
+
+- you violate any term of this license  
+- you attempt to redistribute or commercialize the Software  
+- you attempt to claim ownership of the Software  
+
+Upon termination, you must delete all copies of the Software.
+
+---
+
+## 7. Governing Law
+
+This license is governed by the laws of the United States and the State of Arkansas.
+
+---
+
+## 8. Contact
+
+For permissions, licensing inquiries, or commercial discussions:  
+**souljahforlove@protonmail.com** (placeholder)
+
+---
+
+## 9. Affirmation
+
+By installing, running, or modifying SoulJahForLoveOS, you affirm that you understand and agree to this license.
+
+Love is the operating system.  
+Everything else is an app.
