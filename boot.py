@@ -5,7 +5,7 @@ kernel = Microkernel()
 def main():
     kernel.boot()
     print("LoveOS Booted.")
-    print("Type 'breathe', 'feel <text>', or 'exit'.")
+    print("Type 'breathe', 'feel <text>', 'state', or 'exit'.")
 
     while True:
         cmd = input("> ").strip().lower()
@@ -19,6 +19,11 @@ def main():
         # Breathing ritual
         if cmd == "breathe":
             print(kernel.breathe())
+            continue
+
+        # Emotional state
+        if cmd == "state":
+            print(kernel.emotional_state())
             continue
 
         # Exit

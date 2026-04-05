@@ -1,6 +1,6 @@
 """
 Emotion Tagger — LoveOS
-Automatically classifies emotional state from signals.
+Multi-emotion scoring + dominant label.
 """
 
 EMOTION_KEYWORDS = {
@@ -13,9 +13,19 @@ EMOTION_KEYWORDS = {
     "numbness": ["numb", "empty", "nothing"],
 }
 
-def tag_emotion(text: str) -> dict:
+def score_emotions(text: str) -> dict:
     text = text.lower()
+    scores = {e: 0.0 for e in EMOTION_KEYWORDS.keys()}
     for emotion, keywords in EMOTION_KEYWORDS.items():
-        if any(k in text for k in keywords):
-            return {"emotion": emotion, "confidence": 0.8}
-    return {"emotion": "neutral", "confidence": 0.5}
+        for k in keywords:
+            if k in text:
+                scores[emotion] += 1.0
+    total = sum(scores.values()) or 1.0
+    for k in scores:
+        scores[k] /= total
+    dominant = max(scores, key=scores.get)
+    return {
+        "dominant": dominant,
+        "scores": scores,
+        "confidence": scores[dominant],
+    }

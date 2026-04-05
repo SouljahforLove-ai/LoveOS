@@ -70,6 +70,9 @@ class Microkernel:
     def tag_emotion(self, text: str):
         return syscall_emotion_tag(text)
 
+    def emotional_state(self):
+        return syscall_emotion_get_state()
+
     # ───────────────────────────────────────────────
     # BOOT SEQUENCE
     # ───────────────────────────────────────────────
