@@ -2,7 +2,7 @@
 
 ```
   ╔══════════════════════════════════════════════════╗
-  ║              L O V E O S  v1.0                   ║
+  ║              S o u l J a h O S  v7.77                   ║
   ║        Sovereign Microkernel Runtime             ║
   ║                                                  ║
   ║   N2 m(THYSELF)e | 👁️ .                          ║
