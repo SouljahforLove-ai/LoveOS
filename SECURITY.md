@@ -1,6 +1,6 @@
-# 🔐 LoveOS — Security Policy
+# 🔐 SoulJahOS — Security Policy
 
-LoveOS is a sovereign operating system.  
+SoulJahOS is a sovereign operating system.  
 Security is not an afterthought — it is a core part of the philosophy, architecture, and workflow.
 
 This document outlines how to report vulnerabilities, how security is handled, and the principles that guide all security-related decisions.
@@ -9,7 +9,7 @@ This document outlines how to report vulnerabilities, how security is handled, a
 
 # 1. Security Philosophy
 
-LoveOS security is built on:
+SoulJahOS security is built on:
 
 ### **Sovereignty**
 No hidden behavior. No silent overrides. No unauthorized access.
@@ -49,7 +49,7 @@ If you discover a security issue, please follow this ritual:
 
 # 3. Supported Versions
 
-LoveOS is in active development.  
+SoulJahOS is in active development.  
 Security fixes will be applied to:
 
 - The `main` branch  

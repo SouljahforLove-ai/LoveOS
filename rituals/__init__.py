@@ -1,1 +1,1 @@
-"""LoveOS Rituals — ceremonial system lifecycle sequences."""
+"""SoulJahOS Rituals — ceremonial system lifecycle sequences."""

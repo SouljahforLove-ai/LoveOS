@@ -1,12 +1,12 @@
-# ❓ LoveOS — Frequently Asked Questions (FAQ)
+# ❓ SoulJahOS — Frequently Asked Questions (FAQ)
 
-This document answers common questions about LoveOS, its philosophy, architecture, and development workflow.
+This document answers common questions about SoulJahOS, its philosophy, architecture, and development workflow.
 
 ---
 
-# 1. What is LoveOS?
+# 1. What is SoulJahOS?
 
-LoveOS is a sovereign microkernel operating system built around:
+SoulJahOS is a sovereign microkernel operating system built around:
 
 - Identity  
 - Ritual  
@@ -18,9 +18,9 @@ It is both a technical system and a philosophical framework.
 
 ---
 
-# 2. What makes LoveOS different from other OS projects?
+# 2. What makes SoulJahOS different from other OS projects?
 
-LoveOS is:
+SoulJahOS is:
 
 - **Identity-driven** — sigils, branding, and philosophy are part of the system  
 - **Ritual-based** — major actions map to rituals  
@@ -30,9 +30,9 @@ LoveOS is:
 
 ---
 
-# 3. What stage is LoveOS currently in?
+# 3. What stage is SoulJahOS currently in?
 
-LoveOS is in the **Foundation Phase**, focused on:
+SoulJahOS is in the **Foundation Phase**, focused on:
 
 - Documentation  
 - Architecture  
@@ -44,7 +44,7 @@ Kernel and engine development begins in the next phase.
 
 ---
 
-# 4. How do I install LoveOS?
+# 4. How do I install SoulJahOS?
 
 See `INSTALL.md`.
 
@@ -52,13 +52,13 @@ Short version:
 
 ```
 git clone <repo>
-cd LoveOS
+cd SoulJahOS
 python build.py
 ```
 
 ---
 
-# 5. How do I build LoveOS?
+# 5. How do I build SoulJahOS?
 
 See `BUILDING.md`.
 
@@ -97,7 +97,7 @@ Rituals are the interface between emotional logic and system behavior.
 
 ---
 
-# 8. What is the LoveOS microkernel responsible for?
+# 8. What is the SoulJahOS microkernel responsible for?
 
 - Identity state  
 - Ritual dispatch  
@@ -110,7 +110,7 @@ Everything else is handled by engines.
 
 ---
 
-# 9. What engines does LoveOS include?
+# 9. What engines does SoulJahOS include?
 
 - **Emotional Engine**  
 - **Ritual Engine**  
@@ -121,7 +121,7 @@ Each engine has a clear domain and boundaries.
 
 ---
 
-# 10. What is the long-term vision for LoveOS?
+# 10. What is the long-term vision for SoulJahOS?
 
 - A sovereign operating system  
 - A personal philosophy encoded in code  
@@ -130,7 +130,7 @@ Each engine has a clear domain and boundaries.
 
 ---
 
-# 11. Who maintains LoveOS?
+# 11. Who maintains SoulJahOS?
 
 **Jorge Cordero**  
 Creator of LoveOS and the SoulJahForLove universe.

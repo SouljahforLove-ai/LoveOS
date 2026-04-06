@@ -2,7 +2,7 @@
 Universal Sorting Intelligence Engine
 ═══════════════════════════════════════════════════
 Routes, tags, classifies, and prioritizes ALL inputs
-entering the LoveOS system. Nothing bypasses the sorter.
+entering the SoulJahOS system. Nothing bypasses the sorter.
 
 Design Pattern: Pipeline → Classify → Route → Audit
 

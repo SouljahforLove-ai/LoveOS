@@ -5,7 +5,7 @@ Maps symbolic meanings to computational constructs.
 Symbols bridge the human-spiritual layer to the
 mathematical-computational layer.
 
-Every symbol in LoveOS has:
+Every symbol in SoulJahOS has:
   - A name (human-readable identifier)
   - A glyph (visual representation)
   - A vector (mathematical embedding)

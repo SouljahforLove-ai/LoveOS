@@ -1,6 +1,6 @@
 """
 Integration Map — Maps connections between all engines, modules, and layers.
-Defines how data flows through the LoveOS system.
+Defines how data flows through the SoulJahOS system.
 """
 
 from __future__ import annotations
@@ -19,7 +19,7 @@ class IntegrationLink:
 
 class IntegrationMap:
     """
-    Maps all inter-component connections in LoveOS.
+    Maps all inter-component connections in SoulJahOS.
     """
 
     def __init__(self):

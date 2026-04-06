@@ -1,5 +1,5 @@
 """
-Emotion Tagger — LoveOS
+Emotion Tagger — SoulJahOS
 Multi-emotion scoring + dominant label.
 """
 

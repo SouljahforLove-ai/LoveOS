@@ -1,5 +1,5 @@
 """
-LoveOS Configuration — Runtime configuration management.
+SoulJahOS Configuration — Runtime configuration management.
 ═══════════════════════════════════════════════════
 Loads configuration from YAML, validates against sovereignty
 axioms, and provides typed access to all config values.
@@ -70,8 +70,8 @@ class OperatorConfig:
 
 
 @dataclass
-class LoveOSConfig:
-    """Master configuration for LoveOS."""
+class SoulJahOSConfig:
+    """Master configuration for SoulJahOS."""
     version: str = "1.0.0"
     codename: str = "Sovereign Genesis"
     motto: str = "Love is the operating system. Everything else is an app."
@@ -112,7 +112,7 @@ class LoveOSConfig:
         return hashlib.sha256(data.encode()).hexdigest()[:16]
 
     @classmethod
-    def load_defaults(cls) -> LoveOSConfig:
+    def load_defaults(cls) -> SoulJahOSConfig:
         """Load the default canonical configuration."""
         config = cls()
         config.validate()

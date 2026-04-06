@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ═══════════════════════════════════════════════════
-# LoveOS Installation Script
+# SoulJahOS Installation Script
 # ═══════════════════════════════════════════════════
 # N2 m(THYSELF)e | 👁️ .
 # ═══════════════════════════════════════════════════
@@ -54,7 +54,7 @@ for dir in "${REQUIRED_DIRS[@]}"; do
 done
 
 # ─── Create Virtual Environment (optional) ────────
-if [ "${LOVEOS_VENV:-0}" = "1" ]; then
+if [ "${SOULJAHOS_VENV:-0}" = "1" ]; then
     echo "[INSTALL] Creating virtual environment..."
     python3 -m venv "$ROOT_DIR/.venv"
     source "$ROOT_DIR/.venv/bin/activate"
@@ -104,7 +104,7 @@ print('[INSTALL]   ✓ All Python files pass syntax check')
 # ─── Complete ──────────────────────────────────────
 echo ""
 echo "[INSTALL] ═══════════════════════════════════════════"
-echo "[INSTALL]   LoveOS installation verified."
+echo "[INSTALL]   SoulJahOS installation verified."
 echo "[INSTALL]   Run: bash scripts/boot.sh"
 echo "[INSTALL] ═══════════════════════════════════════════"
 echo ""

@@ -1,7 +1,7 @@
 """
 Input Processor
 ═══════════════════════════════════════════════════
-First contact point for all raw inputs entering LoveOS.
+First contact point for all raw inputs entering SoulJahOS.
 Sanitizes, normalizes, and prepares inputs for the sorting engine.
 
 Pipeline: Raw → Sanitize → Normalize → Enrich → Emit

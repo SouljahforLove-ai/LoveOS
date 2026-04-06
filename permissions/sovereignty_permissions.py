@@ -2,7 +2,7 @@
 Sovereignty Permissions — Immutable permission layer for sovereignty operations.
 ═══════════════════════════════════════════════════
 These permissions CANNOT be modified at runtime.
-They are the constitutional layer of LoveOS.
+They are the constitutional layer of SoulJahOS.
 
 Axioms:
   1. Identity is sovereign — no external entity modifies it
