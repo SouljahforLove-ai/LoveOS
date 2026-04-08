@@ -1,5 +1,5 @@
 """
-Emotional State — SoulJahOS
+Emotional State — LoveOS
 Tracks current emotion + history.
 """
 

@@ -49,7 +49,7 @@ class BootRitualState:
 
 class BootRitual:
     """
-    The Boot Ritual — first act of every SoulJahOS session.
+    The Boot Ritual — first act of every LoveOS session.
     
     "Love is the operating system. Everything else is an app."
     """

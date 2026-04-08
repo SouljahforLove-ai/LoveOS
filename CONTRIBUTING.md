@@ -1,6 +1,6 @@
-# 🤟 Contributing to SoulJahOS
+# 🤝 Contributing to LoveOS
 
-Thank you for your interest in contributing to SoulJahOS.
+Thank you for your interest in contributing to LoveOS.  
 This project is more than software — it is a sovereign operating system built on identity, ritual, and legacy. Contributions must respect the philosophy and architecture of the system.
 
 ---
@@ -20,7 +20,7 @@ All contributions must align with:
 # 2. How to Contribute
 
 ### Step 1 — Fork the Repository  
-Create your own fork of the SoulJahOS repo.
+Create your own fork of the LoveOS repo.
 
 ### Step 2 — Create a Feature Branch  
 Use descriptive names:
@@ -54,7 +54,7 @@ Your PR must include:
 
 - What you changed  
 - Why you changed it  
-- How it aligns with SoulJahOS philosophy  
+- How it aligns with LoveOS philosophy  
 - Any new rituals or workflows introduced  
 
 ---
@@ -79,7 +79,7 @@ Every major contribution must map to a ritual:
 - Identity  
 - Integration  
 
-If your contribution does not map to a ritual, it may not belong in SoulJahOS.
+If your contribution does not map to a ritual, it may not belong in LoveOS.
 
 ---
 
@@ -96,7 +96,7 @@ Before submitting large changes, open an issue to discuss:
 
 # 6. Philosophy Alignment
 
-SoulJahOS is not a generic open-source project.  
+LoveOS is not a generic open-source project.  
 It is a **sovereign system** with a **specific identity** and **spiritual architecture**.
 
 Contributors must respect:

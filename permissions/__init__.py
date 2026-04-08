@@ -1,1 +1,1 @@
-"""SoulJahOS Permissions — access control matrix and sovereignty permissions."""
+"""LoveOS Permissions — access control matrix and sovereignty permissions."""

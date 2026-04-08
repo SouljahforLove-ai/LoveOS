@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SoulJahOS v1.0 Sovereign Genesis - Codebase Extractor
+LoveOS v1.0 Sovereign Genesis - Codebase Extractor
 Reads compressed data chunks and extracts all 90 source files.
 Run from the repo root: python _bootstrap/build.py
 """

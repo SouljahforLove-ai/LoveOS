@@ -6,7 +6,7 @@ def scan(path):
         if f.endswith(".py")
     ]
 
-print("=== SoulJahOS Build ===")
+print("=== LoveOS Build ===")
 
 print("\n[Kernel]")
 print(scan("kernel"))
@@ -23,4 +23,4 @@ for item in os.listdir("rituals"):
     if os.path.isdir(full):
         print(f"{item}: {scan(full)}")
 
-print("\n[OK] SoulJahOS is alive.")
+print("\n[OK] LoveOS is alive.")

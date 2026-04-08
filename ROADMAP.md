@@ -73,13 +73,13 @@ LoveOS is a sovereign operating system — its roadmap reflects that sovereignty
 # 4. Phase Four — Operator Layer
 
 ### Goals:
-- Build the SoulJahOS CLI  
+- Build the LoveOS CLI  
 - Create operator workflows  
 - Add ritual triggers  
 - Implement operator initialization sequence  
 
 ### Deliverables:
-- `souljahos` command  
+- `loveos` command  
 - Operator rituals  
 - CLI help system  
 - Operator logs  
@@ -107,7 +107,7 @@ LoveOS is a sovereign operating system — its roadmap reflects that sovereignty
 # 6. Phase Six — Universe Integration
 
 ### Goals:
-- Connect SoulJahOS to the SoulJahForLove universe  
+- Connect LoveOS to the SoulJahForLove universe  
 - Integrate Faith OS  
 - Integrate Vision OS  
 - Integrate Emotional OS  
@@ -145,7 +145,7 @@ LoveOS is a sovereign operating system — its roadmap reflects that sovereignty
 
 # 8. Long-Term Vision
 
-SoulJahOS is not just software — it is:
+LoveOS is not just software — it is:
 
 - A sovereign operating system  
 - A personal philosophy encoded in code  

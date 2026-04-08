@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ═══════════════════════════════════════════════════
-# SoulJahOS Boot Script
+# LoveOS Boot Script
 # ═══════════════════════════════════════════════════
 # N2 m(THYSELF)e | 👁️ .
 # "Love is the operating system. Everything else is an app."
@@ -52,7 +52,7 @@ echo "[BOOT]   ✓ External: no override"
 # ─── Launch Kernel ────────────────────────────────
 echo ""
 echo "[BOOT] Initiating boot sequence..."
-echo "[BOOT] Launching SoulJahOS kernel..."
+echo "[BOOT] Launching LoveOS kernel..."
 echo ""
 
 cd "$ROOT_DIR"

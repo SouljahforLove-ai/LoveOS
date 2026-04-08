@@ -1,5 +1,5 @@
 """
-Permission Matrix — Complete access control matrix for all SoulJahOS components.
+Permission Matrix — Complete access control matrix for all LoveOS components.
 ═══════════════════════════════════════════════════
 Maps every component to every operation with explicit
 permission levels. The matrix is the single source of

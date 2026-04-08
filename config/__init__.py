@@ -1,1 +1,1 @@
-"""SoulJahOS Configuration — system defaults and runtime configuration."""
+"""LoveOS Configuration — system defaults and runtime configuration."""

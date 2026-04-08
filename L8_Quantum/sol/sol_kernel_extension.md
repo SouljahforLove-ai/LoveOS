@@ -1,7 +1,7 @@
 # SOL Kernel Extension (L8_Quantum)
 
 ## Purpose
-Extend the SoulJahOS kernel with quantum‍‑aware decision logic.
+Extend the LoveOS kernel with quantum‑aware decision logic.
 
 ## Components
 - Quantum Router
