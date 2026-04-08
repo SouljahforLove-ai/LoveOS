@@ -1,0 +1,66 @@
+# SOL Action Schema
+# Defines the structure for actions that SOL can execute
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "intent": {
+      "type": "string",
+      "enum": [
+        "update_state",
+        "log_event",
+        "trigger_unity_signal",
+        "append_to_note",
+        "mark_session",
+        "altar_pulse",
+        "dojo_effect"
+      ],
+      "description": "The type of action to perform"
+    },
+    "field": {
+      "type": "string",
+      "description": "The field to update (for update_state actions)"
+    },
+    "value": {
+      "description": "The value to set (for update_state actions)"
+    },
+    "data": {
+      "type": "object",
+      "description": "Additional data for the action"
+    }
+  },
+  "required": ["intent"],
+  "additionalProperties": false
+}
+
+## Action Types
+
+### update_state
+Updates a field in the state.json file.
+- field: The state field to update
+- value: The new value
+
+### log_event
+Logs an event to memory.
+- data: Event data to log
+
+### trigger_unity_signal
+Triggers a signal in the Unity Dojo environment.
+- data: Signal parameters
+
+### append_to_note
+Appends content to an Obsidian note.
+- data: { "note_path": "path/to/note.md", "content": "text to append" }
+
+### mark_session
+Marks the current session with metadata.
+- data: Session metadata
+
+### altar_pulse
+Triggers an altar pulse in the Dojo.
+- data: Pulse parameters
+
+### dojo_effect
+Applies an effect to a Dojo node.
+- data: { "node": "altar", "effect": "glow", "duration": 30 }

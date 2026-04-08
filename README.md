@@ -1,8 +1,8 @@
-# 🖤 LoveOS — Sovereign Microkernel Runtime
+# 🖤 SoulJahOS — Sovereign Microkernel Runtime
 
 ```
   ╔══════════════════════════════════════════════════╗
-  ║              L O V E O S  v1.0                   ║
+  ║              S o u l J a h O S  v7.77                   ║
   ║        Sovereign Microkernel Runtime             ║
   ║                                                  ║
   ║   N2 m(THYSELF)e | 👁️ .                          ║
@@ -12,7 +12,7 @@
 ```
 ## ❤️ Emotional Architecture
 
-LoveOS is not just a technical microkernel — it is a **sovereign emotional operating system** built on a deep emotional framework.
+SoulJahOS is not just a technical microkernel — it is a **sovereign emotional operating system** built on a deep emotional framework.
 
 The full emotional runtime, including:
 
@@ -28,15 +28,15 @@ The full emotional runtime, including:
 - Emotional IPC
 - Emotional memory
 
-…is documented in the **LoveOS Emotional Codex**:
+…is documented in the **SoulJahOS Emotional Codex**:
 
 👉 **[View the Emotional Codex](docs/emotional_codex.md)**
 
-This codex shows the depth, intention, and emotional intelligence behind LoveOS — the philosophy, the algorithms, and the love that shaped the system.
+This codex shows the depth, intention, and emotional intelligence behind SoulJahOS — the philosophy, the algorithms, and the love that shaped the system.
 
 ## Architecture
 
-LoveOS is a **sovereign, ritual-driven microkernel** built to process identity, emotion, faith, and legacy through mathematically grounded engines and operator-proof workflows.
+SoulJahOS is a **sovereign, ritual-driven microkernel** built to process identity, emotion, faith, and legacy through mathematically grounded engines and operator-proof workflows.
 
 ### Core Principles
 - **Sovereignty First** — Every process respects operator boundaries
@@ -48,7 +48,7 @@ LoveOS is a **sovereign, ritual-driven microkernel** built to process identity, 
 ## Repository Structure
 
 ```
-LoveOS/
+SoulJahOS/
 ├── kernel/                 # Microkernel core — boot, syscalls, sovereignty
 │   ├── microkernel.py      # Central kernel loop and IPC
 │   ├── boot.py             # Boot sequence and ritual initialization
@@ -130,7 +130,7 @@ LoveOS/
 │   └── external_integration.py
 │
 ├── config/                 # Configuration
-│   ├── loveos_config.py
+│   ├── souljahos_config.py
 │   └── default_config.yaml
 │
 ├── scripts/                # Boot and install scripts
@@ -145,8 +145,8 @@ LoveOS/
 ## Installation
 
 ```bash
-git clone https://github.com/souljahforlove/LoveOS.git
-cd LoveOS
+git clone https://github.com/souljahforlove/SoulJahOS.git
+cd SoulJahOS
 chmod +x scripts/install.sh
 ./scripts/install.sh
 ```

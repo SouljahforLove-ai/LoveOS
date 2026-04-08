@@ -1,0 +1,111 @@
+# SOL Memory Schema
+# Defines the structure of SOL's memory layers
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "short_term": {
+      "type": "object",
+      "properties": {
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "type": { "type": "string" },
+              "timestamp": { "type": "number" },
+              "data": { "type": "object" }
+            }
+          },
+          "description": "Last 20 chat turns and events"
+        },
+        "last_10_events": {
+          "type": "array",
+          "description": "Last 10 normalized events"
+        },
+        "current_session_context": {
+          "type": "object",
+          "description": "Current session state"
+        }
+      }
+    },
+    "mid_term": {
+      "type": "object",
+      "properties": {
+        "patterns": {
+          "type": "object",
+          "description": "Last 7-30 days of patterns (repetition, avoidance, etc.)"
+        },
+        "streaks": {
+          "type": "object",
+          "properties": {
+            "current": { "type": "integer", "description": "Current streak length" },
+            "last_session": { "type": "string", "format": "date", "description": "Date of last session" }
+          }
+        },
+        "recurring_topics": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "recurring_blocks": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "recurring_breakthroughs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "recent_notes": {
+          "type": "array",
+          "description": "Top 3 modified Obsidian notes"
+        }
+      }
+    },
+    "long_term": {
+      "type": "object",
+      "properties": {
+        "identity_truths": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Core identity-level truths"
+        },
+        "core_goals": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "core_fears": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "core_patterns": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "core_mythos": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "os_architecture": {
+          "type": "object",
+          "description": "Core OS architecture knowledge"
+        }
+      }
+    }
+  },
+  "required": ["short_term", "mid_term", "long_term"]
+}
+
+## Memory Update Rules
+After each reply:
+1. Log event to short_term
+2. Update streaks in mid_term
+3. Update patterns in mid_term
+4. Update focus in state
+5. Update session markers
+
+## Memory Persistence
+- Short-term: In-memory, persisted to sol_memory.json
+- Mid-term: Persisted, updated daily
+- Long-term: Rarely changed, core truths

@@ -2586,10 +2586,10 @@ def main():
         target = os.getcwd()
 
     target = os.path.abspath(target)
-    loveos_dir = os.path.join(target, "LoveOS")
+    souljahos_dir = os.path.join(target, "SoulJahOS")
 
-    if os.path.exists(loveos_dir):
-        resp = input(f" [INSTALL] {loveos_dir} already exists. Overwrite? (y/N): ")
+    if os.path.exists(souljahos_dir):
+        resp = input(f" [INSTALL] {souljahos_dir} already exists. Overwrite? (y/N): ")
         if resp.lower() != 'y':
             print(" [INSTALL] Aborted.")
             return

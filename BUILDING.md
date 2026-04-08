@@ -1,13 +1,13 @@
-# 🏗️ LoveOS — Building From Source
+# 🏗️ SoulJahOS — Building From Source
 
-This document explains how to build LoveOS from source during its early development phase.  
+This document explains how to build SoulJahOS from source during its early development phase.  
 The build system validates structure, discovers modules, and prepares the microkernel for future expansion.
 
 ---
 
 # 1. Requirements
 
-Before building LoveOS, ensure you have:
+Before building SoulJahOS, ensure you have:
 
 ### Python
 - Version 3.10 or higher
@@ -16,7 +16,7 @@ Before building LoveOS, ensure you have:
 - Required for cloning and updating the repository
 
 ### Terminal
-- Windows CMD (reference environment for LoveOS development)
+- Windows CMD (reference environment for SoulJahOS development)
 
 ---
 
@@ -40,7 +40,7 @@ If any of these are missing, the build script will warn you or fail.
 
 # 3. Running the Build Script
 
-To build LoveOS, run:
+To build SoulJahOS, run:
 
 ```
 python build.py
